@@ -59,7 +59,7 @@ class Robot:
         while self.com.running :
             self.update()
             time.sleep(0.01)
-        self.com.stop ()
+        #self.com.stop ()
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
